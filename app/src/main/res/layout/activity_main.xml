@@ -21,4 +21,14 @@
         android:layout_height="wrap_content"
         android:text="2번 액티비티로 이동" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="3번 액티비티에 전달할 내용을 입력" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3번 액티비티로 이동" />
+
 </LinearLayout>
