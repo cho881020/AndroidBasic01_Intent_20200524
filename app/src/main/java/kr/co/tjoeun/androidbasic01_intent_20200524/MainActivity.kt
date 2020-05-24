@@ -36,5 +36,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
 
+//        폰번을 입력받아서, 네번째 액티비티 (FourthActivity)에서 출력
+
+        goToFourthBtn.setOnClickListener {
+            val inputPhoneNum = phoneNumEdt.text.toString()
+
+            val myIntent = Intent(this, FourthActivity::class.java)
+            myIntent.putExtra("phone", inputPhoneNum)
+            startActivity(myIntent)
+
+        }
+
     }
 }

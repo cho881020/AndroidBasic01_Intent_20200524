@@ -33,4 +33,17 @@
         android:layout_height="wrap_content"
         android:text="3번 액티비티로 이동" />
 
+    <EditText
+        android:id="@+id/phoneNumEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="폰번을 입력해 주세요"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/goToFourthBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4번 액티비티로" />
+
 </LinearLayout>
