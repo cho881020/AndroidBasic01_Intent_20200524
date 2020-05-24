@@ -47,5 +47,9 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        editNickNameBtn.setOnClickListener {
+            
+        }
+
     }
 }
